@@ -53,3 +53,13 @@
 .search img {
   padding-left: 0.5rem;
 }
+
+@media (max-width: 768px) {
+  .search span {
+    display: none;
+  }
+
+  .search img {
+    padding-left: 0;
+  }
+}
