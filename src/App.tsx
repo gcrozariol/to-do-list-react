@@ -1,11 +1,15 @@
-import './App.module.css'
 import { Header } from './components/Header'
+import { NewTaskForm } from './components/NewTaskForm'
+import styles from './App.module.css'
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <div className={styles.wrapper}>
+        <NewTaskForm />
+      </div>
+    </>
   )
 }
 
