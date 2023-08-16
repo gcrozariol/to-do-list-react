@@ -1,0 +1,24 @@
+.emptyTaskList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  min-height: 15.25rem;
+  border: 1px var(--gray-400);
+  border-style: solid none;
+  border-radius: 8px;
+  border-bottom: none;
+}
+
+.primaryMessage {
+  color: var(--gray-300);
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.secondaryMessage {
+  color: var(--gray-300);
+  font-size: 16px;
+}

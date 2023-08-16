@@ -12,11 +12,11 @@
   --blue: #4EA8DE;
   --blue-dark: #1E6F9F;
   --danger: #E25858;
+  --alpha: 0.5;
 }
 
 :focus {
   outline: transparent;
-  /* box-shadow: 0 0 0 2px var(--green-500); */
 }
 
 * {

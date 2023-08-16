@@ -1,0 +1,16 @@
+.wrapper {
+  padding-top: 1.5rem;
+}
+
+.task + .task {
+  padding-top: 0.75rem;
+}
+
+.wrapper button {
+  background-color: transparent;
+  border: none
+}
+
+.wrapper span {
+  flex-grow: 1;
+}

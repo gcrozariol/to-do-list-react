@@ -1,0 +1,31 @@
+
+.metrics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.metric {
+  display: flex;
+}
+
+.createdText {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.doneText {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.totalNumber {
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-left: 0.5rem;
+  font-size: 12px;
+  align-self: center;
+}
