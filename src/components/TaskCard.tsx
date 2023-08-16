@@ -25,10 +25,16 @@ export function TaskCard({ task, removeTask, toggleCheckbox }: TaskCardProps) {
 
   return (
     <div className={styles.wrapper}>
-      <Checkbox active={isTaskDone} toggleCheckbox={handleToggleCheckbox} />
-      <TaskContent isTaskDone={isTaskDone} content={content} />
+      <Checkbox 
+        active={isTaskDone} 
+        toggleCheckbox={handleToggleCheckbox} 
+      />
+      <TaskContent 
+        isTaskDone={isTaskDone} 
+        content={content} 
+      />
       <button onClick={handleRemoveTask}>
-          <img src={trash} />
+        <img src={trash} />
       </button>
     </div>
   )

@@ -1,5 +1,4 @@
 .taskDone {
-  color: red;
   text-decoration: line-through;
   text-decoration-color: var(--gray-300);
 }

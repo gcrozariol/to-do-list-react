@@ -11,11 +11,15 @@ export function Checkbox({ active, toggleCheckbox }: CheckboxProps) {
     toggleCheckbox()
   }
 
-  return active ? (
-    <div className={styles.checkedBox} onClick={handleToggleCheckbox}>
-      <img src={checkmark} />
+  return (
+    <div style={{width: '24px', height: '24px'}}>
+      {active ? 
+        <div className={styles.checkedBox} onClick={handleToggleCheckbox}>
+          <img src={checkmark} />
+        </div>
+        :
+        <div className={styles.uncheckedBox} onClick={handleToggleCheckbox} /> 
+      }
     </div>
-  ) : (
-    <div className={styles.uncheckedBox} onClick={handleToggleCheckbox} />    
   )
 }
